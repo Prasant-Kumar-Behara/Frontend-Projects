@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to right, rgb(124, 224, 204), rgb(12, 241, 104));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    width: fit-content;
+    padding: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    color: hotpink;
+}
+
+input[type="button"]{
+    background-color: aqua;
+}
+
+label{
+    color: blue;
+}
